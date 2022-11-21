@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding&family=Saira+Stencil+One&display=swap');
+body{
+    background-color: #131212;
+    height: 100%;
+    width: 100%;
+}
+#clock {
+    font-family: "Saira Stencil One";
+    color: rgb(8, 245, 245);
+    font-size: 6vw;
+    position: absolute;
+    top: 5%;
+    left: 20%;
+}
+#digital_clock{
+    position: absolute;
+    height: 50%;
+    width: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+@media (max-width: 992px) {
+    #clock {
+        font-family: "Saira Stencil One";
+        font-size: 6vw;
+        position: absolute;
+        top: 5%;
+        left: 20%;
+    }
+    #digital_clock{
+        position: absolute;
+        height: 50%;
+        width: 50%;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    }
+}
+@media (max-width: 720px) {
+    #clock {
+        font-family: "Saira Stencil One";
+        font-size: 6vw;
+        position: absolute;
+        top: 5%;
+        left: 18%;
+    }
+    #digital_clock{
+        position: absolute;
+        height: 50%;
+        width: 50%;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    }
+}
+@media (max-width: 550px) {
+    #clock {
+        font-family: "Saira Stencil One";
+        font-size: 6vw;
+        position: absolute;
+        top: 5%;
+        left: 18%;
+    }
+    #digital_clock{
+        position: absolute;
+        height: 50%;
+        width: 50%;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    }
+}
+@media (max-width: 490px) {
+    #clock {
+        font-family: "Saira Stencil One";
+        font-size: 6vw;
+        position: absolute;
+        top: 5%;
+        left: 18%;
+    }
+    #digital_clock{
+        position: absolute;
+        height: 50%;
+        width: 50%;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    }
+}
+
+
