@@ -1,6 +1,6 @@
 # Digital-Clock
 
-##Introduction
+## Introduction
 This is a Digital Clock made using HTML, CSS, JavaScript
 
 ## Languages Used
